@@ -1,15 +1,12 @@
 <template>
   <div class="container">
     <div id="block">
-      Hi there !
+      I am the block
     </div>
   </div>
 </template>
 
 <script>
-// eslint-disable-next-line no-unused-vars
-import ScrollToPlugin, { TweenMax } from 'gsap/umd/TweenMax'
-
 export default {
   mounted() {
     const scene2 = this.$scrollmagic
@@ -21,7 +18,7 @@ export default {
         triggerHook: 0.5,
 
         // Duration of animation
-        duration: 300
+        duration: 250
       })
 
       // Declaration of animation and attaching to element
@@ -32,7 +29,7 @@ export default {
         scale: 0.7 // the tween durtion can be omitted and defaults to 1
       })
       // Helpful tags for orientation on the screen
-      .addIndicators({ name: '2 (duration: 300)' })
+      .addIndicators({ name: 'background-color' })
 
     // Add Scene to controller
     this.$scrollmagic.addScene(scene2)

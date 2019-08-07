@@ -1,6 +1,6 @@
-# romankuepper
+# ScrollMagic & Nuxt
 
-> My personal website
+> Example on how to run ScrollMagic and GSAP in a Nuxt JS application
 
 ## Build Setup
 

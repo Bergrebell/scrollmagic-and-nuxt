@@ -1,7 +1,7 @@
 {
-  "name": "romankuepper",
+  "name": "scrollmagic-and-nuxt",
   "version": "1.0.0",
-  "description": "My personal website",
+  "description": "Example on how to run ScrollMagic and GSAP in a Nuxt JS application",
   "author": "Roman Kuepper",
   "private": true,
   "scripts": {
