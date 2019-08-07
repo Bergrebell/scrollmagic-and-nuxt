@@ -2,6 +2,12 @@
 
 > Example on how to run ScrollMagic and GSAP in a Nuxt JS application
 
+## About
+
+This is an example project that shows how to use [ScrollMagic](https://scrollmagic.io/) together with [GSAP](https://greensock.com/gsap/) and [Nuxt JS](https://nuxtjs.org/).
+
+ScrollMagic is imported via the [vue-scrollmagic](https://github.com/magr0s/vue-scrollmagic) plugin for Vue JS.
+
 ## Build Setup
 
 ``` bash
@@ -18,5 +24,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
